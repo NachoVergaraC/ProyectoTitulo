@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tesis-business/tesis-business.iml" filepath="$PROJECT_DIR$/tesis-business/tesis-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tesis-business/tesis-business-logic/tesis-business-logic.iml" filepath="$PROJECT_DIR$/tesis-business/tesis-business-logic/tesis-business-logic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tesis-root.iml" filepath="$PROJECT_DIR$/tesis-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tesis-ui/tesis-ui.iml" filepath="$PROJECT_DIR$/tesis-ui/tesis-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tesis-ui/ui-desktop/ui-desktop.iml" filepath="$PROJECT_DIR$/tesis-ui/ui-desktop/ui-desktop.iml" />
+    </modules>
+  </component>
+</project>
+

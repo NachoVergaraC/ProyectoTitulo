@@ -1,0 +1,858 @@
+/* CONTENEDORES MAESTRO ESCLAVO */
+
+table {
+    font-family: "DejaVu Sans Mono", "Courier New", serif;
+    font-size: 13px !important;
+}
+
+.tituloPrincipal {
+    text-align: center;
+    font-size: 22px !important;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 44, 95);
+    border-top: rgb(293, 129, 7) solid 2px;
+    border-bottom: rgb(293, 129, 7) solid 2px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subTitulo {
+    font-size: 16px !important;
+    font-family: Arial, sans-serif;
+    background-color: inherit;
+    color: rgb(293, 129, 7);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contenidoUnico {
+    min-height: 200px !important;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0, 44, 95, 0.03);
+    border: rgb(0, 44, 95) solid 1px;
+}
+
+.botones {
+    min-height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.checkBoxPapeleta {
+    min-height: 35px;
+    margin: 0 0 20px 300px;
+    width: 500px;
+}
+
+/* DATATABLE */
+.ui-datatable, .ui-panelgrid {
+    font-family: "DejaVu Sans Mono", "Courier New", sans-serif;
+}
+
+.ui-datatable-tablewrapper {
+    overflow: hidden !important;
+}
+
+.ui-datatable-scrollable .ui-datatable-scrollable-body {
+    overflow-x: hidden !important;
+}
+
+.ui-datatable .ui-datatable-tablewrapper th, .ui-datatable-scrollable .ui-datatable-scrollable-header .ui-datatable-scrollable-header-box th {
+    background: rgb(0, 44, 95) !important;
+    color: #FFF;
+    text-shadow: none;
+    box-shadow: none;
+    vertical-align: text-top;
+}
+
+.ui-datatable .ui-datatable-header, .ui-datatable-scrollable .ui-datatable-scrollable-header {
+    border-top: none;
+    background: rgb(0, 44, 95);
+    color: #FFF;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.ui-datatable-scrollable .ui-datatable-scrollable-header {
+    border: none;
+}
+
+.ui-datatable .ui-datatable-tablewrapper tfoot td {
+    border-top: none;
+    background: rgb(0, 44, 95);
+    color: #FFF;
+    text-shadow: none;
+}
+
+.ui-datatable .ui-datatable-footer {
+    border-top: none;
+    background: rgb(0, 44, 95);
+    color: #FFF;
+}
+
+.ui-datatable-scrollable .ui-datatable-scrollable-footer {
+    border: none;
+}
+
+.ui-datatable .ui-state-hover td {
+    border: 1px solid rgb(239, 129, 7);
+    background: rgba(0, 44, 95, 0.5);
+    color: #FFF;
+}
+
+.ui-datatable .ui-state-highlight td {
+    border: 1px solid rgb(0, 44, 95);
+    background: rgb(239, 129, 7);
+    color: #FFF;
+}
+
+.ui-datatable tbody td {
+    border: none;
+}
+
+.ui-datatable .ui-datatable-odd {
+    background: #FFF;
+}
+
+.tableLayout .ui-datatable-tablewrapper table {
+    table-layout: auto !important;
+}
+
+.columnTipoInternacion {
+    width: 40px;
+}
+
+.columnTipoInternacion .ui-column-filter {
+    width: 35px;
+}
+
+.columnNumeroDoc {
+    width: 70px;
+}
+
+.columnNumeroDoc .ui-column-filter {
+    width: 65px;
+}
+
+.columnVuelo {
+    width: 170px;
+}
+
+.columnVuelo .ui-column-filter {
+    width: 65px;
+    align-items: stretch;
+}
+
+/* PAGINADOR DATATABLE */
+
+.ui-paginator.ui-paginator-bottom {
+    border-top: none;
+    background: rgb(0, 44, 95);
+    color: #FFF;
+    text-shadow: none;
+}
+
+.ui-paginator .ui-paginator-current {
+    color: #FFF !important;
+    text-shadow: none;
+}
+
+.ui-paginator .ui-paginator-page, .ui-paginator .ui-paginator-next, .ui-paginator .ui-paginator-last, .ui-paginator .ui-paginator-first, .ui-paginator .ui-paginator-prev {
+    cursor: pointer;
+    background: rgb(239, 129, 7) !important;
+    text-shadow: none !important;
+    color: #FFF !important;
+    border: #000 solid 1px;
+}
+
+.ui-paginator .ui-paginator-rpp-options {
+    margin-left: 1em;
+    margin-right: 1em;
+    background: rgb(239, 129, 7) !important;
+    color: #FFF !important;
+    text-shadow: none;
+}
+
+/* HEADER */
+
+.logo {
+    height: 60px;
+}
+
+.revision {
+    font-size: 8pt;
+    color: #000000;
+}
+
+.ui-menubar > .ui-widget-content {
+    background-color: #ffffff !important;
+}
+
+.ui-menu, .ui-menu .ui-menu-child {
+    background-color: #ffffff !important;
+    border: none;
+}
+
+.ui-menubar .ui-menuitem-link {
+    width: 120px !important;
+}
+
+td.mainHeaderMenu {
+    width: 1122px;
+    padding: 0 10px 0 0;
+}
+
+td.mainHeaderGeneral {
+    width: 200px;
+    padding: 0 10px 0 0;
+}
+
+div.sessionInfo {
+    text-align: center;
+    height: 60px;
+}
+
+.sessionInfo p {
+    color: black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+div.sessionInfo label {
+    color: #1e0eff;
+}
+
+/* MATRIZ VUELOS */
+
+.pasado td {
+    background-image: -webkit-repeating-radial-gradient(center center, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 1px, transparent 1px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, rgba(255, 0, 0, .2), rgba(255, 0, 0, .2) 1px, transparent 1px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 1px, transparent 1px, transparent 100%);
+    background-image: repeating-radial-gradient(center center, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 1px, transparent 1px, transparent 100%);
+    -webkit-background-size: 3px 3px;
+    -moz-background-size: 3px 3px;
+    background-size: 3px 3px;
+}
+
+.vuelosMatriz {
+    table-layout: fixed;
+}
+
+.vuelosMatriz th.fecha {
+    width: 35px;
+}
+
+.vuelosMatriz td.fecha {
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+.vuelosMatriz th.vuelosInfo {
+    padding: 4pt 2pt 4pt 2pt;
+}
+
+.vuelosMatriz th.vuelosInfo span {
+    font-size: 10pt;
+}
+
+.vuelosMatriz td.vuelosInfo {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.vuelosMatriz td.vuelosInfo img {
+    display: inline-block;
+}
+
+.vuelosMatriz td div.contenedor {
+    padding: 0;
+    height: 35px;
+    width: 50px;
+    position: relative;
+}
+
+.vuelosMatriz td.vuelosInfo div.avion {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.vuelosMatriz td div.contenedor div.contador {
+    width: 15px;
+    padding: 1px;
+    position: absolute;
+    top: 19px;
+    left: 30px;
+    text-align: center;
+    float: right;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.vuelosMatriz td div.contenedor div.contadorSLA {
+    width: 15px;
+    padding: 1px;
+    position: absolute;
+    top: 19px;
+    left: 30px;
+    text-align: center;
+    float: right;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+/* SELECT ONE MENU */
+
+.ui-selectonemenu label.ui-selectonemenu-label {
+    cursor: pointer;
+    color: rgb(0, 44, 95);
+    font-weight: bold;
+}
+
+.ui-selectonemenu.ui-state-disabled .ui-selectonemenu-trigger, .ui-selectonemenu.ui-state-disabled .ui-selectonemenu-label {
+    color: #FFF;
+    background: gray;
+    text-shadow: none;
+}
+
+.ui-selectonemenu .ui-selectonemenu-trigger {
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    cursor: pointer;
+    width: 16px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 3px;
+}
+
+.ui-selectonemenu-trigger.ui-state-default {
+    background: rgb(0, 44, 95);
+    box-shadow: none;
+}
+
+.ui-selectonemenu-trigger.ui-state-hover {
+    background: rgb(0, 44, 95);
+}
+
+.ui-selectonemenu-panel .ui-selectonemenu-list-item {
+    border: none;
+    margin: 1px 0;
+    padding: 3px 5px;
+    text-align: left;
+    white-space: nowrap;
+    color: rgb(0, 44, 95);
+    font-weight: bold;
+}
+
+.ui-selectonemenu-list-item.ui-state-highlight {
+    border: 1px solid rgb(0, 44, 95);
+    background: rgb(239, 129, 7);
+    color: #FFF;
+}
+
+.ui-selectonemenu-list-item.ui-state-hover {
+    border: 1px solid rgb(239, 129, 7);
+    background: rgb(0, 44, 95);
+    color: #FFF;
+}
+
+.ui-selectonemenu-row.ui-state-highlight {
+    border: 1px solid rgb(0, 44, 95) !important;
+    background: rgb(239, 129, 7) !important;
+}
+
+.ui-selectonemenu-row.ui-state-hover {
+    background: rgb(251, 236, 136) !important;
+    border: 1px solid rgb(250, 212, 46) !important;
+}
+
+/* CHECKBOX */
+
+.ui-chkbox-box.ui-state-active {
+    border: #000 solid 1px;
+    background: #FFF;
+}
+
+.ui-chkbox-box.ui-state-active .ui-icon {
+    background-image: url(redmond/images/ui-icons_EF8107_256x240.png) !important;
+}
+
+.ui-chkbox-box.ui-state-disabled {
+    background: lightgray;
+    box-shadow: none;
+}
+
+/* RADIO BUTTON */
+
+.ui-radiobutton-box.ui-state-active {
+    border: #000 solid 1px;
+    background: #FFF;
+    background-image: url(redmond/images/ui-icons_EF8107_256x240.png) !important;
+}
+
+.ui-radiobutton-box.ui-state-active .ui-icon {
+    background-image: url(redmond/images/ui-icons_EF8107_256x240.png) !important;
+}
+
+.ui-radiobutton-box.ui-state-disabled {
+    background: lightgray;
+    box-shadow: none;
+}
+
+/* MONITOREO */
+.panelInternacionActual {
+    border: 2px solid #a6c9e2;
+    padding: 5px;
+}
+
+.internacionActual {
+    font-weight: bold;
+    font-size: 2.5em !important;
+    color: rgb(239, 129, 7);
+}
+
+.columna-arribados {
+    width: 75%;
+    text-align: center;
+}
+
+.columna-del-dia {
+    width: 25%;
+    text-align: center;
+}
+
+.top-alignment {
+    vertical-align: top;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+
+}
+
+.flex-item:nth-child(1) {
+    display: table-column;
+    text-align: center;
+    order: 1;
+    flex: 1 1 auto;
+    align-self: auto;
+}
+
+.flex-item:nth-child(2) {
+    display: table-column;
+    order: 2;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+#formMonitoreo .ui-datatable table {
+    font-size: 2em !important;
+    font-weight: bold;
+}
+
+.labelSemaforo {
+    font-family: inherit;
+    color: inherit !important;
+    font-size: inherit !important;
+}
+
+#formMonitoreo .ui-datatable .ui-datatable-header {
+    font-size: 2em !important;
+}
+
+/* LABEL */
+.ui-outputlabel {
+    color: rgb(0, 44, 95);
+    font-weight: bold;
+}
+
+.ui-outputlabel.ui-state-error {
+    color: #cd0a0a;
+    font-weight: bold;
+    background: none;
+    border: none;
+}
+
+.ui-outputlabel-rfi {
+    color: #cd0a0a;
+    font-size: 1em !important;
+}
+
+.labelRojo {
+    color: #FF0000;
+    font-weight: bold !important;
+    font-size: 13px !important;
+}
+
+.resaltar {
+    color: rgb(239, 129, 7);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* INPUT */
+
+.ui-inputtext.ui-state-disabled, .ui-inputfield.ui-state-disabled, .ui-chkbox-box.ui-state-disabled {
+    background: #BFBFBF;
+    box-shadow: none;
+    color: #FFF;
+    text-shadow: none;
+}
+
+.soloMayusculas {
+    text-transform: uppercase
+}
+
+.soloMayusculas > input {
+    text-transform: uppercase
+}
+
+/* ERROR MESSAGE */
+
+.ui-messages-error-summary {
+    color: #cd0a0a;
+    font-weight: bold;
+}
+
+/* CALENDARIO */
+
+.ui-datepicker tbody a.ui-state-default {
+    color: rgb(0, 44, 95) !important;
+}
+
+.ui-datepicker tbody a.ui-state-hover {
+    color: rgb(239, 129, 7) !important;
+    text-shadow: none !important;
+    background: rgba(0, 44, 95, 0.6) !important;
+}
+
+.ui-datepicker tbody a.ui-state-active {
+    color: #FFF !important;
+    text-shadow: none !important;
+    background: rgb(0, 44, 95) !important;
+}
+
+/* VUELO PROCESADO */
+
+.contenidoCentrado {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* OTROS */
+.h10 {
+    height: 10px
+}
+
+.float_l {
+    float: left
+}
+
+.float_r {
+    float: right
+}
+
+.columnaCentro {
+    text-align: center;
+}
+
+.columnaInterna {
+    width: 100px !important;
+}
+
+.colTexto {
+    text-align: left;
+}
+
+.asNumber {
+    text-align: right;
+}
+
+.ellipsis {
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    width: 100px !important;
+    white-space: nowrap !important;
+}
+
+.colCifraCompuesta {
+    text-align: center;
+    white-space: pre !important;
+}
+
+.colDatoPequeno {
+    width: 120px !important;
+}
+
+.colDatoMediano {
+    width: 180px !important;
+}
+
+.colVuelo {
+    width: 80px !important;
+}
+
+.colFecha {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    min-width: 100px !important;
+    width: 100px !important;
+}
+
+.columna-40w {
+    width: 40px;
+}
+
+td.selectionDisabled .ui-chkbox {
+    display: none;
+}
+
+.selectionAllDisabled .ui-selection-column .ui-chkbox-all {
+    display: none !important;
+}
+
+.width_400 {
+    width: 400px;
+}
+
+.width_500 {
+    width: 500px;
+}
+
+.ruta {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.filaEnRojo td {
+    width: 100%;
+    color: #dc0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.filaEnVerde td {
+    width: 100%;
+    color: #00b62d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.filaEnNaranjo td {
+    width: 100%;
+    color: #b67900;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* MANTENEDOR ZONAS ALMACEN */
+
+.multipleSeleccion .ui-state-highlight {
+    border: 1px solid #a6c9e2;
+}
+
+.multipleSeleccion .ui-state-highlight td {
+    border: none;
+    background: #FFF;
+    font-weight: bold;
+    color: #000;
+}
+
+.multipleSeleccionColumnas .ui-state-highlight td {
+    border: none;
+    background: #adcfff;
+    font-weight: bold;
+    color: #000;
+}
+
+.seleccionRetiro .ui-state-highlight td {
+    border: none;
+    background: aliceblue !important;
+    font-weight: bold;
+    color: #000;
+}
+
+/* PICKLIST */
+.ui-picklist .ui-picklist-filter {
+    width: 92% !important;
+}
+
+.ui-picklist .ui-picklist-filter-container .ui-icon {
+    right: 10px !important;
+}
+
+.ui-picklist .ui-picklist-list {
+    width: 250px !important;
+}
+
+/* MANTENEDOR CLIENTE */
+.columnIataFilter {
+    width: 45px;
+}
+
+.columnIataFilter .ui-column-filter {
+    width: 40px;
+}
+
+.columnAgenteFilter {
+    width: 80px;
+}
+
+.columnAgenteFilter .ui-column-filter {
+    width: 75px;
+}
+
+.columnTributarioFilter {
+    width: 155px;
+}
+
+.columnTributarioFilter .ui-column-filter {
+    width: 100px;
+}
+
+.columnTipoFilter {
+    width: 150px;
+}
+
+.columnTipoFilter .ui-column-filter {
+    width: 145px;
+}
+
+.columnNombreFilter .ui-column-filter {
+    width: 160px;
+}
+
+/* BLOQUEO */
+
+.columnNumInternaFilter {
+    width: 75px;
+}
+
+.columnGuiaFilter {
+    width: 150px;
+}
+
+.columnBloqueoFilter {
+    width: 76px;
+}
+
+.columnNumInternaFilter .ui-column-filter {
+    width: 95px;
+}
+
+.numeroBloqueo {
+    width: 35px;
+}
+
+.activoBloqueo {
+    width: 31px;
+}
+
+.numeroBloqueo .ui-column-filter {
+    width: 45px;
+}
+
+.columnUsuarioFilter {
+    width: 90px;
+}
+
+.columnUsuarioFilter .ui-column-filter {
+    width: 85px;
+}
+
+.operadorNombre {
+    width: 275px;
+}
+
+.columnNumDocFilter {
+    width: 10%;
+}
+
+.columnNumDocFilter .ui-column-filter {
+    width: 95%;
+}
+
+.filaEnVerde td {
+    width: 100%;
+    color: rgb(61, 226, 10);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.textoEnVerde {
+    color: rgb(61, 226, 10);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.textoEnRojo {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.retiroPendiente {
+    background-color: rgb(255, 251, 23) !important;
+    color: rgb(162, 52, 44) !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ui-fileupload-content {
+    height: 100px !important;
+}
+
+.ui-tabs .ui-tabs-nav li.tituloTabAmarillo {
+    background-color: rgb(255, 251, 23) !important;
+}
+
+.ui-datatable .ui-datatable-tablewrapper .maquinaDetenida {
+    background: rgb(239, 129, 7) !important;
+}
+
+.ui-buttonset .ui-button.ui-state-active {
+    background: rgb(0, 44, 95) !important;
+    border: #000 solid 1px;
+    box-shadow: none !important;
+}
+
+.fieldSetRevalorizacion {
+    width: 45% !important;
+    min-width: 45% !important;
+    display: inherit !important;
+    border: #000 1px solid;
+}
+
+.ui-panelgrid-header .ui-panelgrid-cell {
+    color: #FFF !important;
+    text-shadow: none !important;
+    background: rgb(0, 44, 95) !important;
+    box-shadow: none;
+}
+
+.ui-panelgrid-footer .ui-panelgrid-cell {
+    color: #FFF !important;
+    text-shadow: none !important;
+    background: rgb(0, 44, 95) !important;
+    box-shadow: none;
+}

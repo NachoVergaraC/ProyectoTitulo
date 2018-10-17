@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ui-desktop:war">
+    <output-path>$PROJECT_DIR$/tesis-ui/ui-desktop/target</output-path>
+    <root id="archive" name="ui-desktop.war">
+      <element id="artifact" artifact-name="ui-desktop:war exploded" />
+    </root>
+  </artifact>
+</component>
