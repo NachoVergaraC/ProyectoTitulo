@@ -3,10 +3,14 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/tesis-business/tesis-external-services" />
     <file type="web" url="file://$PROJECT_DIR$/tesis-ui/ui-desktop" />
   </component>
-  <component name="IdProvider" IDEtalkID="3639694A8A4D1EBD269C30C7CA9FF3CF" />
+  <component name="IdProvider" IDEtalkID="569A5E64B9CB0E0419BDB4EF9AB5BF9C" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>

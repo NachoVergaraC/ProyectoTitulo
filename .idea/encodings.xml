@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/dto/DomainDTO.java" charset="UTF-8" />
+  </component>
 </project>
 

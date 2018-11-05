@@ -9,8 +9,8 @@
 		<constructor-arg index="1" value="REUSE"/>
 	</bean>
 
-	<bean id="accesoUsuarioMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
-		<property name="mapperInterface" value="cl.depocargo.rso.mappers.AccesoUsuarioMapper"/>
+	<bean id="clienteMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="cl.andina.tesis.mappers.ClienteMapper"/>
 		<property name="sqlSessionTemplate" ref="myBatisSqlSession"/>
 	</bean>
 </beans>

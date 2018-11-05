@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="myBatisSqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg index="0" ref="mybatisSessionFactory"/>
+        <constructor-arg index="1" value="REUSE"/>
+    </bean>
+
+    <bean id="clienteServiceMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="cl.andina.tesis.mappers.ClienteServiceMapper"/>
+        <property name="sqlSessionTemplate" ref="myBatisSqlSession"/>
+    </bean>
+</beans>

@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="tesis-business-logic" />
+        <module name="tesis-external-services" />
         <module name="ui-desktop" />
       </profile>
     </annotationProcessing>

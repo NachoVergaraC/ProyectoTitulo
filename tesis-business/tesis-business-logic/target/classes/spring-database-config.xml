@@ -19,7 +19,33 @@
 	<context:component-scan base-package="cl.andina.tesis.dao"/>
 
 	<bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
-		<property name="jndiName" value="${database.datasource.jndi}"/>
+		<property name="jndiName" value="java:comp/env/jdbc/depocargoRSO"/>
+	</bean>
+
+	<bean id="sessionFactory"
+	      class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"/>
+
+		<property name="packagesToScan">
+			<value>cl.andina.tesis.entities</value>
+		</property>
+
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.connection.pool_size">25</prop>
+				<prop key="hibernate.jdbc.batch_size">100</prop>
+				<prop key="current_session_context_class">thread</prop>
+				<prop key="hibernate.format_sql">true</prop>
+				<prop key="hibernate.generate_statistics">false</prop>
+				<prop key="hibernate.max_fetch_depth">15</prop>
+				<prop key="hibernate.cache.provider_class">org.hibernate.cache.HashtableCacheProvider</prop>
+				<prop key="hibernate.use_outer_join">true</prop>
+				<prop key="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</prop>
+				<!--suppress SpringModelInspection -->
+				<prop key="hibernate.hbm2ddl.auto">none</prop>
+				<prop key="hibernate.show_sql">true</prop>
+			</props>
+		</property>
 	</bean>
 
 	<bean id="mybatisSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
@@ -28,5 +54,18 @@
 	</bean>
 
 	<import resource="classpath:spring-mappers-beans-config.xml"/>
+
+	<bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory">
+			<ref local="sessionFactory"/>
+		</property>
+	</bean>
+
+	<bean id="hibernateInterceptor" class="org.springframework.orm.hibernate3.HibernateInterceptor">
+		<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>
+
+	<tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>
+
 
 </beans>

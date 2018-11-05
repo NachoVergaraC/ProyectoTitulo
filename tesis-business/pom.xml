@@ -10,5 +10,6 @@
     <packaging>pom</packaging>
   <modules>
     <module>tesis-business-logic</module>
+    <module>tesis-external-services</module>
   </modules>
 </project>

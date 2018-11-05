@@ -9,12 +9,12 @@
 		<setting name="logImpl" value="LOG4J"/>
 		<setting name="mapUnderscoreToCamelCase" value="true"/>
 	</settings>
+
 	<typeAliases>
-		<typeAlias type="cl.depocargo.rso.mybatis.TipoDocumentoCobroTypeHandler" alias="metodoCobroEnum"/>
-		<package name="cl.andina.tesis.dto"/>
+		<typeAlias type="cl.andina.tesis.dto.ClienteDTO" alias="clienteDTO"/>
 	</typeAliases>
 	<mappers>
-		<mapper resource="mappings/AccesoUsuarioMapper.xml"/>
+		<mapper resource="mappings/ClienteMapper.xml"/>
 	</mappers>
 
 </configuration>

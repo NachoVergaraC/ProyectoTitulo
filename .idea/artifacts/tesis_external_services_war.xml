@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tesis-external-services:war">
+    <output-path>$PROJECT_DIR$/tesis-business/tesis-external-services/target</output-path>
+    <root id="archive" name="tesis-external-services-0.1.war">
+      <element id="artifact" artifact-name="tesis-external-services:war exploded" />
+    </root>
+  </artifact>
+</component>
