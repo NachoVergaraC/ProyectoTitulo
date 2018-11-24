@@ -16,11 +16,11 @@ public class ClienteDTO
 
     private String giro;
 
-    @XmlTransient
     private boolean personaNatural;
 
-    @XmlTransient
     private boolean inicioActividades;
+
+    private String correo;
 
     public String getRut()
     {
@@ -70,5 +70,15 @@ public class ClienteDTO
     public void setInicioActividades(boolean inicioActividades)
     {
         this.inicioActividades = inicioActividades;
+    }
+
+    public String getCorreo()
+    {
+        return correo;
+    }
+
+    public void setCorreo(String correo)
+    {
+        this.correo = correo;
     }
 }

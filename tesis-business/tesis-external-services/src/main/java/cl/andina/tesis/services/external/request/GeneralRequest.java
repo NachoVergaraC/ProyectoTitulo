@@ -8,23 +8,23 @@ import javax.xml.bind.annotation.*;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement
-@XmlType(propOrder = {"idCliente"})
+@XmlType(propOrder = {"id"})
 
-@XStreamAlias(value = "consultaClienteRequest")
-public class ClienteRequest
+@XStreamAlias(value = "consultaGeneralRequest")
+public class GeneralRequest
 {
     @XmlElement(required = true)
     @NotNull
     @NotEmpty
-    long idCliente;
+    long id;
 
-    public long getIdCliente()
+    public long getId()
     {
-        return idCliente;
+        return id;
     }
 
-    public void setIdCliente(long idCliente)
+    public void setId(long id)
     {
-        this.idCliente = idCliente;
+        this.id = id;
     }
 }

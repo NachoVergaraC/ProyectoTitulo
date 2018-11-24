@@ -1,0 +1,46 @@
+<!DOCTYPE mapper
+		PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cl.andina.tesis.mappers.MarcaServiceMapper">
+	<update id="desactivarMarca">
+		UPDATE MARCA
+		SET
+		ACTIVO = 0
+		WHERE ID = #{id}
+	</update>
+
+	<update id="activarMarca">
+		UPDATE MARCA
+		SET
+		ACTIVO = 1
+		WHERE ID = #{id}
+	</update>
+
+	<delete id="eliminarMarca">
+		DELETE FROM MARCA
+		WHERE ID = #{id}
+	</delete>
+
+	<select id="traerPorId" statementType="PREPARED" resultType="marcaDTO">
+		SELECT
+		C.ID,
+		C.CODIGO_TRIBUTARIO,
+		C.NOMBRE                  AS NOMBRE,
+		G.NOMBRE                  AS GIRO,
+		C.PERSONA_NATURAL,
+		C.CON_INICIO_ACTIVIDADES,
+		C.EMAIL                   AS CORREO
+		FROM CLIENTE C
+		INNER JOIN GIRO G ON C.ID_GIRO = G.ID
+		WHERE C.ID = #{id}
+	</select>
+
+	<insert id="crearMarca" statementType="PREPARED">
+		<selectKey keyProperty="id" resultType="long" order="BEFORE">
+			SELECT ANDINA_SEQ.nextVal from DUAL
+		</selectKey>
+		INSERT INTO MARCA (ID, CODIGO, NOMBRE, ACTIVO)
+		VALUES (#{id}, #{codigo}, #{nombre}, 1)
+	</insert>
+</mapper>

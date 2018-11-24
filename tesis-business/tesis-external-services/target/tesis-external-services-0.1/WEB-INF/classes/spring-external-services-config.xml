@@ -6,7 +6,6 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 	    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <!-- to activate annotations in beans already registered in the ApplicationContext -->
     <context:annotation-config/>
     <aop:aspectj-autoproxy/>
 
@@ -22,11 +21,10 @@
     <import resource="classpath:spring-wsu-mappers-beans-config.xml"/>
 
     <bean id="clienteService" class="cl.andina.tesis.services.impl.ClienteServiceImpl"/>
+	<bean id="marcaService" class="cl.andina.tesis.services.impl.MarcaServiceImpl"/>
+	<bean id="tipoProductoService" class="cl.andina.tesis.services.impl.TipoProductoServiceImpl"/>
+	<bean id="formatoProducto" class="cl.andina.tesis.services.impl.FormatoProductoServiceImpl"/>
 
-    <!-- <bean id="valorizadorCarga" class="cl.depocargo.rso.logic.ValorizadorCargaRetiro" scope="prototype"/> -->
-
-
-    <!-- scans packages to find and register beans within the application context -->
     <context:component-scan base-package="cl.andina.tesis.services.external"/>
 
     <import resource="classpath:webServices.xml"/>

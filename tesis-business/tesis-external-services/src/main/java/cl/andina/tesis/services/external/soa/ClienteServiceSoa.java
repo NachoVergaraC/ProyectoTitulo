@@ -1,7 +1,7 @@
 package cl.andina.tesis.services.external.soa;
 
 import cl.andina.tesis.services.ClienteService;
-import cl.andina.tesis.services.external.request.ClienteRequest;
+import cl.andina.tesis.services.external.request.GeneralRequest;
 import cl.andina.tesis.services.external.response.ClienteResponse;
 
 import javax.annotation.Resource;
@@ -24,12 +24,41 @@ public class ClienteServiceSoa
     @WebMethod
     @WebResult(name = "ConsultaDocumentoAduanaResponse")
     public ClienteResponse buscarCliente(@WebParam(name = "buscarCliente")
-                                         @XmlElement(required = true) ClienteRequest request)
+                                         @XmlElement(required = true) GeneralRequest request)
     {
         ClienteResponse response = new ClienteResponse();
 
-            response.setClientes(clienteService.buscarCliente(request));
+            response.setClientes(clienteService.buscarPorId(request));
 
         return response;
+    }
+
+    @WebMethod
+    @WebResult(name = "clientesActivosResponse")
+    public ClienteResponse buscarClientesActivos()
+    {
+        ClienteResponse response = new ClienteResponse();
+
+        response.setClientes(clienteService.traerActivos());
+
+        return response;
+    }
+
+    @WebMethod
+    @WebResult(name = "desactivarClienteResponse")
+    public void desactivarCliente(@WebParam(name = "desactivarCliente")
+                                         @XmlElement(required = true) GeneralRequest request)
+    {
+        clienteService.desactivar(request);
+
+    }
+
+    @WebMethod
+    @WebResult(name = "activarClienteResponse")
+    public void activarCliente(@WebParam(name = "activarCliente")
+                                  @XmlElement(required = true) GeneralRequest request)
+    {
+        clienteService.activar(request);
+
     }
 }

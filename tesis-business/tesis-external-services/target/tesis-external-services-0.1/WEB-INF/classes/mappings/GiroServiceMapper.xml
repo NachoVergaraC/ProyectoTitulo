@@ -1,0 +1,58 @@
+<!DOCTYPE mapper
+		PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cl.andina.tesis.mappers.GiroServiceMapper">
+	<update id="desactivarCliente">
+		UPDATE CLIENTE
+		SET
+		ACTIVO = 0
+		WHERE ID = #{id}
+	</update>
+
+	<update id="activarCliente">
+		UPDATE CLIENTE
+		SET
+		ACTIVO = 1
+		WHERE ID = #{id}
+	</update>
+
+	<delete id="eliminarCliente">
+		DELETE FROM CLIENTE
+		WHERE ID = #{id}
+	</delete>
+
+	<select id="buscarCliente" statementType="PREPARED" resultType="clienteDTO">
+		SELECT
+		C.ID,
+		C.CODIGO_TRIBUTARIO,
+		C.NOMBRE                  AS NOMBRE,
+		G.NOMBRE                  AS GIRO,
+		C.PERSONA_NATURAL,
+		C.CON_INICIO_ACTIVIDADES,
+		C.EMAIL                   AS CORREO
+		FROM CLIENTE C
+		INNER JOIN GIRO G ON C.ID_GIRO = G.ID
+		WHERE C.ID = #{id}
+	</select>
+
+	<select id="buscarClientesActivos" statementType="PREPARED" resultType="clienteDTO">
+		SELECT
+		C.ID,
+		C.CODIGO_TRIBUTARIO,
+		C.NOMBRE                  AS NOMBRE,
+		G.NOMBRE                  AS NOMBRE,
+		C.PERSONA_NATURAL,
+		C.CON_INICIO_ACTIVIDADES
+		FROM CLIENTE C
+		INNER JOIN GIRO G ON C.ID_GIRO = G.ID
+		WHERE C.ACTIVO = 1
+	</select>
+	<insert id="crearMarca" statementType="PREPARED">
+		<selectKey keyProperty="id" resultType="long" order="BEFORE">
+			SELECT ANDINA_SEQ.nextVal from DUAL
+		</selectKey>
+		INSERT INTO MARCA (ID, CODIGO, NOMBRE, ACTIVO)
+		VALUES (#{id}, #{codigo}, #{nombre}, 1)
+	</insert>
+</mapper>

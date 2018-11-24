@@ -8,11 +8,4 @@ import javax.inject.Named;
 @Named(value = "generalService")
 public class GeneralServiceImpl
 {
-    @Resource
-    private ClienteDao clienteDao;
-
-    int buscarCliente(long id)
-    {
-        return clienteDao.buscarCliente(id);
-    }
 }

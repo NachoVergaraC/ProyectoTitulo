@@ -9,8 +9,20 @@
         <constructor-arg index="1" value="REUSE"/>
     </bean>
 
-    <bean id="clienteServiceMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
-        <property name="mapperInterface" value="cl.andina.tesis.mappers.ClienteServiceMapper"/>
-        <property name="sqlSessionTemplate" ref="myBatisSqlSession"/>
-    </bean>
+	<bean id="clienteServiceMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="cl.andina.tesis.mappers.ClienteServiceMapper"/>
+		<property name="sqlSessionTemplate" ref="myBatisSqlSession"/>
+	</bean>
+	<bean id="tipoProductoServiceMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="cl.andina.tesis.mappers.TipoProductoServiceMapper"/>
+		<property name="sqlSessionTemplate" ref="myBatisSqlSession"/>
+	</bean>
+	<bean id="marcaServiceMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="cl.andina.tesis.mappers.MarcaServiceMapper"/>
+		<property name="sqlSessionTemplate" ref="myBatisSqlSession"/>
+	</bean>
+	<bean id="formatoProductoServiceMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="cl.andina.tesis.mappers.FormatoProductoServiceMapper"/>
+		<property name="sqlSessionTemplate" ref="myBatisSqlSession"/>
+	</bean>
 </beans>

@@ -11,9 +11,13 @@
     </settings>
 	<typeAliases>
 		<typeAlias type="cl.andina.tesis.dto.ClienteDTO" alias="clienteDTO"/>
+		<typeAlias type="cl.andina.tesis.dto.MarcaDTO" alias="marcaDTO"/>
 	</typeAliases>
     <mappers>
-	    <mapper resource="mappings/ClienteMapper.xml"/>
+	    <mapper resource="mappings/ClienteServiceMapper.xml"/>
+	    <mapper resource="mappings/FormatoProductoServiceMapper.xml"/>
+	    <mapper resource="mappings/TipoProductoServiceMapper.xml"/>
+	    <mapper resource="mappings/MarcaServiceMapper.xml"/>
     </mappers>
 
 </configuration>
