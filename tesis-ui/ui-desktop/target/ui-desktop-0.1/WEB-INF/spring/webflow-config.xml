@@ -12,6 +12,7 @@
 	<webflow:flow-executor id="flowExecutor">
 		<webflow:flow-execution-listeners>
 			<webflow:listener ref="facesContextListener"/>
+			<webflow:listener ref="securityFlowExecutionListener"/>
 		</webflow:flow-execution-listeners>
 	</webflow:flow-executor>
 
@@ -21,9 +22,14 @@
 		<webflow:flow-location-pattern value="/**/*-flow.xml"/>
 	</webflow:flow-registry>
 
-	<!-- Configures the Spring Web Flow JSF integration -->
-	<faces:flow-builder-services id="flowBuilderServices"/>
 
+	<!-- PrimeFaces ViewFactory Implementation -->
+	<bean id="viewFactoryCreator" class="org.springframework.faces.webflow.JsfViewFactoryCreator" />
+
+	<!-- Configure FlowBuilderServices to use PrimeFaces ViewFactoryCreator -->
+	<webflow:flow-builder-services id="flowBuilderServices" view-factory-creator="viewFactoryCreator" />
+
+	<bean id="securityFlowExecutionListener" class="org.springframework.webflow.security.SecurityFlowExecutionListener"/>
 	<!-- A listener maintain one FacesContext instance per Web Flow request. -->
 	<bean id="facesContextListener"
 	      class="org.springframework.faces.webflow.FlowFacesContextLifecycleListener"/>

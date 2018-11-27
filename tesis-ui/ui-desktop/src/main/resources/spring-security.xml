@@ -31,7 +31,7 @@
 		                 invalidate-session="true"/>
 		<security:intercept-url pattern="/app/login" access="permitAll"/>
 		<security:intercept-url pattern="/app/errors" access="permitAll"/>
-		<security:intercept-url pattern="/app/welcome" access="isAuthenticated()"/>
+		<security:intercept-url pattern="/app/welcome" access="permitAll"/>
 
 		<security:intercept-url pattern="/app/bleh1" access="permitAll"/>
 		<security:intercept-url pattern="/app/bleh2" access="permitAll"/>
