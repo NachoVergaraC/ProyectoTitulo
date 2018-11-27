@@ -102,19 +102,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>cl.andina.tesis</groupId>
-			<artifactId>tesis-business-logic</artifactId>
-			<version>${project.version}</version>
-			<type>jar</type>
-			<exclusions>
-				<exclusion>
-					<artifactId>spring-faces</artifactId>
-					<groupId>org.springframework.webflow</groupId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-
-		<dependency>
 			<groupId>joda-time</groupId>
 			<artifactId>joda-time</artifactId>
 		</dependency>

@@ -22,6 +22,8 @@
 		<webflow:flow-location-pattern value="/**/*-flow.xml"/>
 	</webflow:flow-registry>
 
+	<faces:flow-builder-services id="facesFlowBuilderServices"
+	                             development="true" conversion-service="defaultConversionService"/>
 
 	<!-- PrimeFaces ViewFactory Implementation -->
 	<bean id="viewFactoryCreator" class="org.springframework.faces.webflow.JsfViewFactoryCreator" />
@@ -33,5 +35,5 @@
 	<!-- A listener maintain one FacesContext instance per Web Flow request. -->
 	<bean id="facesContextListener"
 	      class="org.springframework.faces.webflow.FlowFacesContextLifecycleListener"/>
-
+	<bean id="defaultConversionService" class="org.springframework.binding.convert.service.DefaultConversionService"/>
 </beans>

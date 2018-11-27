@@ -2,8 +2,11 @@ package cl.andina.tesis.web.controller;
 
 
 import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ViewScoped;
 import java.io.Serializable;
 
+@ViewScoped
+@ManagedBean(name = "welcomeBean")
 public class WelcomeBean
         implements Serializable
 {
