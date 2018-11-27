@@ -2,6 +2,7 @@ package cl.andina.tesis.services.external.soa;
 
 import cl.andina.tesis.services.MarcaService;
 import cl.andina.tesis.services.external.request.GeneralRequest;
+import cl.andina.tesis.services.external.request.TipoRequest;
 import cl.andina.tesis.services.external.response.ClienteResponse;
 
 import javax.annotation.Resource;
@@ -59,6 +60,15 @@ public class MarcaServiceSoa
                         @XmlElement(required = true) GeneralRequest request)
     {
         marcaService.activar(request);
+
+    }
+
+    @WebMethod
+    @WebResult(name = "agregarResponse")
+    public void agregar(@WebParam(name = "agregar")
+                        @XmlElement(required = true) TipoRequest request)
+    {
+        marcaService.agregar(request);
 
     }
 }

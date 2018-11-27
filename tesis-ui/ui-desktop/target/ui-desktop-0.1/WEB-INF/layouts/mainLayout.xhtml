@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+<f:view contentType="text/html;charset=UTF-8">
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+        <title>PIPIPIPI</title>
+        <link rel="stylesheet" href="${request.contextPath}/styles/redmond/redmond.css?r=4275"
+              type="text/css" media="screen, projection"/>
+        <link rel="shortcut icon" href="${request.contextPath}/images/favicon.png?r=4275"/>
+
+        <ui:insert name="headIncludes"/>
+        <script type="text/javascript" src="${request.contextPath}/js/utils.js?r=4275"></script>
+        <script type="text/javascript"
+                src="${request.contextPath}/js/calendar_es.js?r=4275"></script>
+        <script type="text/javascript"
+                src="${request.contextPath}/js/inputMask.js?r=4275"></script>
+        <!--script type="text/javascript"
+                src="{request.contextPath}/js/ajaxInterception.js?r={revisionNumber}"></script-->
+
+        <link rel="stylesheet" href="${request.contextPath}/styles/depocargo.css?r=4275"
+              type="text/css" media="screen, projection"/>
+    </h:head>
+    <h:body>
+        <p:outputPanel>
+            <table class="headerTable">
+                <tr>
+                    <td class="mainHeaderGeneral">
+                        <img src="${request.contextPath}/images/logo.png"
+                             alt="Andina logo" class="logo"/>
+                    </td>
+                    <td class="mainHeaderMenu">
+                        <p:menubar>
+                            <p:submenu label="File" icon="pi pi-file">
+                                <p:menuitem value="BLEH" url="bleh/index.xhtml"/>
+                                <p:menuitem value="BLEH2" url="${request.contextPath}/bleh2/index.xhtml"/>
+                                <p:menuitem value="Open" url="#"/>
+                                <p:separator/>
+                                <p:menuitem value="Quit" url="#"/>
+                            </p:submenu>
+                        </p:menubar>
+                        <p:menubar style="float: right;">
+                            <p:menuitem value="Logout" url="/app/logout"
+                                        icon="ui-icon-power"/>
+                        </p:menubar>
+                    </td>
+                    <td class="mainHeaderGeneral">
+                        <c:if test="#{userContextHolder.authenticated}">
+                            <div class="sessionInfo">
+                                <p>
+                                    <h:outputLink styleClass="usuarioLink" value="cambioPassword">
+                                        <h:outputText value="#{userContextHolder.nombreCompleto}"/>
+                                    </h:outputLink>
+                                </p>
+
+                                <p>
+                                    <h:outputText value="#{userContextHolder.almacenActual.nombre}"/>
+                                </p>
+
+                                <p>
+                                    <h:outputText value="#{userContextHolder.fechaActual}">
+                                        <f:convertDateTime pattern="#{settings.calendarPattern}"/>
+                                    </h:outputText>
+                                </p>
+                            </div>
+                        </c:if>
+                    </td>
+                </tr>
+            </table>
+
+            <p:outputPanel styleClass="tituloPrincipal">
+                <ui:insert name="tituloPrincipal"/>
+            </p:outputPanel>
+        </p:outputPanel>
+
+        <div class="container">
+            <div class="mainSection">
+                <div class="contenidoUnico">
+                    <ui:insert name="content"/>
+                </div>
+                <p:dialog modal="true" widgetVar="dlg1" height="100" width="250" resizable="false"
+                          showEffect="fade"
+                          styleClass="inProgress"
+                          closable="false" draggable="false">
+                    <div align="center">
+                        <h:outputText value="...Procesando..."/> <br/>
+                        <h:graphicImage value="/images/bluespinner.gif" alt="ImagenProceso"
+                                        title="ImagenProceso"/>
+                    </div>
+                </p:dialog>
+                <p:ajaxStatus name="status2" id="status"
+                              onstart="PF('dlg1').show();"
+                              onerror="PF('dlg1').hide();"
+                              onsuccess="PF('dlg1').hide();"
+                              oncomplete="PF('dlg1').hide();"/>
+            </div>
+        </div>
+    </h:body>
+</f:view>
+</html>

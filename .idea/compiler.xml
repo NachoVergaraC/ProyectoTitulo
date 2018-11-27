@@ -27,6 +27,9 @@
         <module name="ui-desktop" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ui-desktop" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

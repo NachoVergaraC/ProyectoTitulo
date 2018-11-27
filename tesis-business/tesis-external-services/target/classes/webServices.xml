@@ -37,7 +37,7 @@
 		</wss:service>
 	</wss:binding> -->
 	<bean id="clienteWebService" class="cl.andina.tesis.services.external.soa.ClienteServiceSoa"/>
-	<bean id="formatoWebService" class="cl.andina.tesis.services.external.soa.FormatoProductoServiceSoa"/>
+	<bean id="formatoProductoWebService" class="cl.andina.tesis.services.external.soa.FormatoProductoServiceSoa"/>
 	<bean id="marcaWebService" class="cl.andina.tesis.services.external.soa.MarcaServiceSoa"/>
 	<bean id="tipoProductoWebService" class="cl.andina.tesis.services.external.soa.TipoProductoServiceSoa"/>
 	<!--<bean id="giroWebService" class="cl.andina.tesis.services.external.soa.GiroServiceSoa"/>-->

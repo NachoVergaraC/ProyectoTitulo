@@ -6,6 +6,7 @@ import cl.andina.tesis.mappers.MarcaServiceMapper;
 import cl.andina.tesis.services.ClienteService;
 import cl.andina.tesis.services.MarcaService;
 import cl.andina.tesis.services.external.request.GeneralRequest;
+import cl.andina.tesis.services.external.request.TipoRequest;
 
 import javax.annotation.Resource;
 import javax.inject.Named;
@@ -40,5 +41,11 @@ public class MarcaServiceImpl
     public int activar(GeneralRequest request)
     {
         return marcaServiceMapper.activar(request.getId());
+    }
+
+    @Override
+    public int agregar(TipoRequest request)
+    {
+        return marcaServiceMapper.agregar(request.getCodigo(), request.getNombre());
     }
 }

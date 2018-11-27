@@ -16,4 +16,7 @@ public interface FormatoProductoServiceMapper
     int activar(@Param("id") long id);
 
     int eliminar(@Param("id") long id);
+
+    int agregar(@Param("codigo") String codigo,
+                @Param("nombre") String nombre);
 }

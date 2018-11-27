@@ -6,6 +6,7 @@ import cl.andina.tesis.mappers.TipoProductoServiceMapper;
 import cl.andina.tesis.services.ClienteService;
 import cl.andina.tesis.services.TipoProductoService;
 import cl.andina.tesis.services.external.request.GeneralRequest;
+import cl.andina.tesis.services.external.request.TipoRequest;
 
 import javax.annotation.Resource;
 import javax.inject.Named;
@@ -40,5 +41,11 @@ public class TipoProductoServiceImpl
     public int activar(GeneralRequest request)
     {
         return tipoProductoServiceMapper.activar(request.getId());
+    }
+
+    @Override
+    public int agregar(TipoRequest request)
+    {
+        return tipoProductoServiceMapper.agregar(request.getCodigo(), request.getNombre());
     }
 }

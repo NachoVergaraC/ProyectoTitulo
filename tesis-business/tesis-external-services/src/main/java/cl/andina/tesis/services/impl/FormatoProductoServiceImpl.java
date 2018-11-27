@@ -4,6 +4,7 @@ import cl.andina.tesis.dto.ClienteDTO;
 import cl.andina.tesis.mappers.FormatoProductoServiceMapper;
 import cl.andina.tesis.services.FormatoProductoService;
 import cl.andina.tesis.services.external.request.GeneralRequest;
+import cl.andina.tesis.services.external.request.TipoRequest;
 
 import javax.annotation.Resource;
 import javax.inject.Named;
@@ -38,5 +39,11 @@ public class FormatoProductoServiceImpl
     public int activar(GeneralRequest request)
     {
         return formatoProductoServiceMapper.activar(request.getId());
+    }
+
+    @Override
+    public int agregar(TipoRequest request)
+    {
+        return formatoProductoServiceMapper.agregar(request.getCodigo(), request.getNombre());
     }
 }

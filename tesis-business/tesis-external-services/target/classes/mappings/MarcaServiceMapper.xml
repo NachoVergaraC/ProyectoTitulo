@@ -3,21 +3,21 @@
 		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="cl.andina.tesis.mappers.MarcaServiceMapper">
-	<update id="desactivarMarca">
+	<update id="desactivar">
 		UPDATE MARCA
 		SET
 		ACTIVO = 0
 		WHERE ID = #{id}
 	</update>
 
-	<update id="activarMarca">
+	<update id="activar">
 		UPDATE MARCA
 		SET
 		ACTIVO = 1
 		WHERE ID = #{id}
 	</update>
 
-	<delete id="eliminarMarca">
+	<delete id="eliminar">
 		DELETE FROM MARCA
 		WHERE ID = #{id}
 	</delete>
@@ -36,7 +36,7 @@
 		WHERE C.ID = #{id}
 	</select>
 
-	<insert id="crearMarca" statementType="PREPARED">
+	<insert id="agregar" statementType="PREPARED">
 		<selectKey keyProperty="id" resultType="long" order="BEFORE">
 			SELECT ANDINA_SEQ.nextVal from DUAL
 		</selectKey>

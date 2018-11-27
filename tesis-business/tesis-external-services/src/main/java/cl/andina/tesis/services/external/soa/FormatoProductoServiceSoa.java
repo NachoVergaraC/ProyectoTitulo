@@ -2,6 +2,7 @@ package cl.andina.tesis.services.external.soa;
 
 import cl.andina.tesis.services.FormatoProductoService;
 import cl.andina.tesis.services.external.request.GeneralRequest;
+import cl.andina.tesis.services.external.request.TipoRequest;
 import cl.andina.tesis.services.external.response.ClienteResponse;
 
 import javax.annotation.Resource;
@@ -59,6 +60,15 @@ public class FormatoProductoServiceSoa
                         @XmlElement(required = true) GeneralRequest request)
     {
         formatoProductoService.activar(request);
+
+    }
+
+    @WebMethod
+    @WebResult(name = "agregarResponse")
+    public void agregar(@WebParam(name = "agregar")
+                        @XmlElement(required = true) TipoRequest request)
+    {
+        formatoProductoService.agregar(request);
 
     }
 }

@@ -2,25 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3548ddac-70c4-4c2f-bd61-fd10ca6f70dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/ClienteServiceMapper.xml" />
-      <change type="DELETED" beforePath="C:\Users\Nacho\Documents\GitHub\ProyectoTitulo\tesis-business\tesis-external-services\src\main\java\cl\andina\tesis\services\external\request\ClienteRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nacho\Documents\GitHub\ProyectoTitulo\tesis-business\tesis-external-services\src\main\resources\mappings\ClienteMapper.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/dto/ClienteDTO.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/dto/ClienteDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/dao/ClienteDao.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/dao/ClienteDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/dao/impl/ClienteJpaDao.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/dao/impl/ClienteJpaDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/mappers/ClienteMapper.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/mappers/ClienteMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/resources/mappings/ClienteMapper.xml" afterPath="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/resources/mappings/ClienteMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/ClienteService.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/ClienteService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/ClienteServiceImpl.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/ClienteServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/ClienteServiceMapper.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/ClienteServiceMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/ClienteServiceSoa.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/ClienteServiceSoa.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/services/impl/GeneralServiceImpl.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/services/impl/GeneralServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mybatis-wsu-config.xml" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mybatis-wsu-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/resources/spring-database-config.xml" afterPath="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/resources/spring-database-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/spring-external-services-config.xml" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/spring-external-services-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/spring-wsu-mappers-beans-config.xml" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/spring-wsu-mappers-beans-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/tesis-external-services.iml" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/tesis-external-services.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__opensymphony_ognl_2_6_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_binding_2_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_faces_2_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_js_2_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_js_resources_2_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_webflow_2_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/spring/webflow-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/spring/webmvc-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nacho\Documents\GitHub\ProyectoTitulo\.idea\libraries\Maven__junit_junit_3_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nacho\Documents\GitHub\ProyectoTitulo\.idea\libraries\Maven__org_springframework_spring_expression_4_0_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nacho\Documents\GitHub\ProyectoTitulo\tesis-ui\ui-desktop\src\main\webapp\index.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/FormatoProductoService.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/FormatoProductoService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/FormatoProductoServiceImpl.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/FormatoProductoServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/FormatoProductoServiceMapper.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/FormatoProductoServiceMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/FormatoProductoServiceMapper.xml" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/FormatoProductoServiceMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/FormatoProductoServiceSoa.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/FormatoProductoServiceSoa.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/MarcaService.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/MarcaService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/MarcaServiceImpl.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/MarcaServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/MarcaServiceMapper.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/MarcaServiceMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/MarcaServiceMapper.xml" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/MarcaServiceMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/MarcaServiceSoa.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/MarcaServiceSoa.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/TipoProductoService.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/TipoProductoService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/TipoProductoServiceImpl.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/TipoProductoServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/TipoProductoServiceMapper.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/TipoProductoServiceMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/TipoProductoServiceMapper.xml" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/TipoProductoServiceMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/TipoProductoServiceSoa.java" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/TipoProductoServiceSoa.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/styles/depocargo.css" afterPath="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/styles/depocargo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-ui/ui-desktop/pom.xml" afterPath="$PROJECT_DIR$/tesis-ui/ui-desktop/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-ui/ui-desktop/ui-desktop.iml" afterPath="$PROJECT_DIR$/tesis-ui/ui-desktop/ui-desktop.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ui_desktop_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ui_desktop_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ui_desktop_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ui_desktop_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/webServices.xml" afterPath="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/webServices.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -45,11 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="spring-external-services-config.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/spring-external-services-config.xml">
+      <file leaf-file-name="web.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26226416" vertical-offset="82" max-vertical-offset="612">
-              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.11971831" vertical-offset="51" max-vertical-offset="2499">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -68,57 +84,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/dto/DomainDTO.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/request/ClienteRequest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/dao/impl/GiroJpaDao.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-business-logic/pom.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/resources/spring-mappers-beans-config.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/resources/spring-database-config.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/services/impl/GeneralServiceImpl.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/ServicesApp.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/resources/mappings/ClienteMapper.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/dto/ClienteDTO.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/ClienteMapper.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/dao/impl/ClienteJpaDao.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/mappers/ClienteMapper.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/dao/ClienteDao.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/DetalleProductoServiceMapper.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/ClienteServiceMapper.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/ProductoServiceMapper.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/GiroServiceMapper.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/SucursalServiceMapper.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/MarcaServiceMapper.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/TipoProductoServiceMapper.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/FormatoProductoServiceMapper.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/ClienteServiceMapper.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/FormatoProductoServiceMapper.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/MarcaServiceMapper.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/TipoProductoServiceMapper.java" />
         <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/spring-wsu-mappers-beans-config.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/request/GeneralRequest.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/FormatoProductoService.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/MarcaService.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/TipoProductoService.java" />
         <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/dao/impl/ClienteJpaDao.java" />
         <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/dao/ClienteDao.java" />
         <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/pom.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/MarcaServiceImpl.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/TipoProductoServiceImpl.java" />
         <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/ClienteService.java" />
         <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/ClienteServiceImpl.java" />
         <option value="$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/dto/MarcaDTO.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/FormatoProductoServiceSoa.java" />
         <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/MarcaProductoServiceSoa.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/MarcaServiceSoa.java" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/TipoProductoServiceSoa.java" />
         <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mybatis-wsu-config.xml" />
-        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/webServices.xml" />
         <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/ClienteServiceSoa.java" />
         <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/spring-external-services-config.xml" />
+        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/webServices.xml" />
+        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/request/GeneralRequest.java" />
+        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/TipoProductoService.java" />
+        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/TipoProductoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/TipoProductoServiceMapper.java" />
+        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/TipoProductoServiceMapper.xml" />
+        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/TipoProductoServiceSoa.java" />
+        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/request/TipoRequest.java" />
+        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/FormatoProductoServiceMapper.xml" />
+        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/MarcaServiceMapper.xml" />
+        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/MarcaServiceMapper.java" />
+        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/FormatoProductoServiceMapper.java" />
+        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/MarcaService.java" />
+        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/FormatoProductoService.java" />
+        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/MarcaServiceImpl.java" />
         <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/FormatoProductoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/FormatoProductoServiceSoa.java" />
+        <option value="$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/MarcaServiceSoa.java" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/java/cl/andina/tesis/web/controller/welcomeBean.java" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/styles/depocargo.css" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/index.xhtml" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/bleh/index.xhtml" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/layouts/mainLayout.xhtml" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/spring/test-config.xml" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/flows/welcome/welcome-flow.xhtml.html" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/java/cl/andina/tesis/web/controller/WelcomeBean.java" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/flows/welcome/landingPage.xhtml" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/flows/welcome/welcome-flow.xml" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/spring/webflow-config.xml" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/springsecurity.taglib.xml" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/resources/spring-desktop-config.xml" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/resources/spring-conddig.xml" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/resources/spring-security.xml" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/java/cl/andina/tesis/security/UserLoginFailureHandler.java" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/java/cl/andina/tesis/security/UserContextHolder.java" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/pom.xml" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/resources/spring-ui-config.xml" />
+        <option value="$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/spring/webmvc-config.xml" />
       </list>
     </option>
   </component>
@@ -177,6 +193,88 @@
     <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Application Server Specific Inspections</id>
+          </State>
+          <State>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>FlexUnit inspections</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>Inheritance issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSF annotated elements errors</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>Java language level issues</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Security issues</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -205,8 +303,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -235,7 +333,7 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
+              <option name="myItemId" value="tesis-ui" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,33 +347,11 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
+              <option name="myItemId" value="tesis-ui" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-external-services" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoTitulo" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-external-services" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="ui-desktop" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,37 +365,11 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
+              <option name="myItemId" value="tesis-ui" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-external-services" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoTitulo" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-external-services" />
+              <option name="myItemId" value="ui-desktop" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -331,7 +381,7 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,11 +395,11 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
+              <option name="myItemId" value="tesis-ui" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-external-services" />
+              <option name="myItemId" value="ui-desktop" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -361,11 +411,11 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tesis" />
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,11 +429,11 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
+              <option name="myItemId" value="tesis-ui" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-external-services" />
+              <option name="myItemId" value="ui-desktop" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -392,408 +442,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoTitulo" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-external-services" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoTitulo" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-external-services" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="external" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoTitulo" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-external-services" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="external" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soa" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoTitulo" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-external-services" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mappers" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoTitulo" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business-logic" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoTitulo" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business-logic" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoTitulo" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business-logic" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoTitulo" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business-logic" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoTitulo" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business-logic" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dto" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoTitulo" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business-logic" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoTitulo" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis-business-logic" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesis" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -818,26 +466,34 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cl.andina.tesis.security" />
+      <recent name="cl.andina.tesis.services.external.request" />
       <recent name="cl.andina.tesis.services.external.soa" />
       <recent name="cl.andina.tesis.dto" />
       <recent name="cl.andina.tesis.services.impl" />
-      <recent name="cl.andina.tesis.services" />
-      <recent name="cl.andina.tesis.mappers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Nacho\Documents\GitHub\ProyectoTitulo\tesis-business\tesis-external-services\src\main\java\cl\andina\tesis" />
-      <recent name="C:\Users\Nacho\Documents\GitHub\ProyectoTitulo\tesis-business\tesis-external-services\src\main\resources\mappings" />
-      <recent name="C:\GDrive\Proyecto Titulo Dev\tesis-ui\ui-desktop\src\main\webapp" />
-      <recent name="C:\GDrive\Proyecto Titulo Dev\tesis-ui\ui-desktop\src\main\webapp\styles" />
+      <recent name="C:\Users\Nacho\Documents\GitHub\ProyectoTitulo\tesis-ui\ui-desktop\src\main\java\cl\andina\tesis\security" />
+      <recent name="C:\Users\Nacho\Documents\GitHub\ProyectoTitulo\tesis-ui\ui-desktop\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\Nacho\Documents\GitHub\ProyectoTitulo\tesis-ui\ui-desktop\src\main\webapp\WEB-INF\flows\welcome" />
+      <recent name="C:\Users\Nacho\Documents\GitHub\ProyectoTitulo\tesis-ui\ui-desktop\src\main\webapp\WEB-INF\bleh2" />
+      <recent name="C:\Users\Nacho\Documents\GitHub\ProyectoTitulo\tesis-ui\ui-desktop\src\main\webapp\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nacho\Documents\GitHub\ProyectoTitulo\tesis-ui\ui-desktop\src\main\resources\imgs" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cl.andina.tesis.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Services">
+  <component name="RunManager" selected="Tomcat Server.PC">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -1085,7 +741,7 @@
       <method />
     </configuration>
     <configuration default="false" name="PC" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.62" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <deployment>
         <artifact name="ui-desktop:war exploded">
           <settings>
@@ -1271,48 +927,84 @@
       <workItem from="1542127250561" duration="130000" />
       <workItem from="1542461886671" duration="599000" />
       <workItem from="1542634480798" duration="39000" />
-      <workItem from="1543015050329" duration="5041000" />
+      <workItem from="1543015050329" duration="8863000" />
+      <workItem from="1543271621900" duration="8946000" />
+      <workItem from="1543331137012" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29297000" />
+    <option name="totallyTimeSpent" value="42078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4966443" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33736762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32718122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4966443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4966443" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33736762" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39932886" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33736762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32718122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39932886" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4966443" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33736762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32718122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4966443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33736762" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39932886" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1340,460 +1032,383 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/request/GeneralRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.1062994" vertical-offset="1100" max-vertical-offset="10234">
-          <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="442">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/request/GiroFormRequest.java">
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/TipoProductoServiceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1875" vertical-offset="595" max-vertical-offset="867">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/request/TipoRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="595">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/FormatoProductoServiceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="867">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/MarcaServiceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.375" vertical-offset="595" max-vertical-offset="867">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/MarcaServiceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="408">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/TipoProductoServiceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.375" vertical-offset="136" max-vertical-offset="408">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/TipoProductoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="374">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/MarcaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="374">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/FormatoProductoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="374">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/FormatoProductoServiceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="408">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/spring-external-services-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.44" vertical-offset="339" max-vertical-offset="612">
+          <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5" vertical-offset="323" max-vertical-offset="595">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/TipoProductoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6875" vertical-offset="0" max-vertical-offset="697">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/FormatoProductoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5625" vertical-offset="0" max-vertical-offset="748">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/MarcaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.625" vertical-offset="374" max-vertical-offset="697">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/FormatoProductoServiceSoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1190">
+          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/TipoProductoServiceSoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.125" vertical-offset="867" max-vertical-offset="1190">
+          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/MarcaServiceSoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75" vertical-offset="816" max-vertical-offset="1190">
+          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/response/ClienteResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36021507" vertical-offset="19" max-vertical-offset="391">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/java/cl/andina/tesis/web/controller/mantenedorTipoProducto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/java/cl/andina/tesis/web/controller/mantenedorMarca.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/response/GiroResponse.java">
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/java/cl/andina/tesis/web/controller/mantenedorFormatoProducto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/request/ClienteFormRequest.java">
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/java/cl/andina/tesis/web/controller/mantenedorProducto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13385826" vertical-offset="0" max-vertical-offset="254">
+        <state vertical-scroll-proportion="0.09139785" vertical-offset="0" max-vertical-offset="372">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/services/impl/GeneralServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/styles/redmond/redmond.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="48042">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/resources/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/styles/depocargo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.030303" vertical-offset="0" max-vertical-offset="425">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.32818532" vertical-offset="102" max-vertical-offset="14671">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0-sources.jar!/org/mybatis/spring/SqlSessionTemplate.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/http/HttpServletRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.8215768" vertical-offset="0" max-vertical-offset="6868">
-          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+        <state vertical-scroll-proportion="2.5808823" vertical-offset="4959" max-vertical-offset="13770">
+          <caret line="392" column="18" selection-start-line="392" selection-start-column="18" selection-end-line="392" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/GiroServiceSoa.java">
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/bleh2/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state vertical-scroll-proportion="3.9230769" vertical-offset="102" max-vertical-offset="442">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/bleh/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.805147" vertical-offset="240" max-vertical-offset="1462">
-          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="51" max-vertical-offset="408">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/resources/spring-mappers-beans-config.xml">
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/layouts/mainLayout.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="357">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/resources/mappings/ClienteMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/dao/ClienteDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state vertical-scroll-proportion="36.307693" vertical-offset="1658" max-vertical-offset="1904">
+          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/response/ClienteResponse.java">
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/flows/bleh2/bleh2-flow.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="545">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/flows/bleh1/bleh1-flow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="545">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13821138" vertical-offset="0" max-vertical-offset="246">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/dto/ClienteDTO.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/io/Serializable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.5" vertical-offset="2329" max-vertical-offset="2601">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/flows/welcome/welcome-flow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="306">
+          <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/flows/welcome/landingPage.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="459">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/java/cl/andina/tesis/web/controller/WelcomeBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/springsecurity.taglib.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.125" vertical-offset="34" max-vertical-offset="612">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/DetalleProductoServiceMapper.xml">
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/resources/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.13765182" vertical-offset="0" max-vertical-offset="935">
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/spring/webflow-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5811966" vertical-offset="0" max-vertical-offset="612">
+          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/java/cl/andina/tesis/security/UserLoginFailureHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
           <folding>
-            <marker date="1543015441528" expanded="true" signature="-1:-1" placeholder="UPDATE CLIEN..." />
-            <marker date="1543015441528" expanded="true" signature="-1:-1" placeholder="UPDATE CLIEN..." />
-            <marker date="1543015441528" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1543015441528" expanded="true" signature="-1:-1" placeholder="SELECT C.ID,..CLIENTE..." />
-            <marker date="1543015441528" expanded="true" signature="-1:-1" placeholder="SELECT C.ID,..CLIENTE..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/ProductoServiceMapper.xml">
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/java/cl/andina/tesis/security/UserContextHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <marker date="1543015740314" expanded="true" signature="-1:-1" placeholder="UPDATE PRODU..." />
-            <marker date="1543015740314" expanded="true" signature="-1:-1" placeholder="UPDATE PRODU..." />
-            <marker date="1543015740314" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1543015740314" expanded="true" signature="-1:-1" placeholder="SELECT C.ID,..CLIENTE..." />
-            <marker date="1543015740314" expanded="true" signature="-1:-1" placeholder="SELECT C.ID,..CLIENTE..." />
-          </folding>
+        <state vertical-scroll-proportion="0.125" vertical-offset="0" max-vertical-offset="1292">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/GiroServiceMapper.xml">
+    <entry file="file://$PROJECT_DIR$/tesis-ui/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="1071">
-          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-          <folding>
-            <marker date="1543016287167" expanded="true" signature="-1:-1" placeholder="UPDATE CLIEN..." />
-            <marker date="1543016287167" expanded="true" signature="-1:-1" placeholder="UPDATE CLIEN..." />
-            <marker date="1543016287167" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1543016287167" expanded="true" signature="-1:-1" placeholder="SELECT C.ID,..CLIENTE..." />
-            <marker date="1543016287167" expanded="true" signature="-1:-1" placeholder="SELECT C.ID,..CLIENTE..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/SucursalServiceMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="969">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <marker date="1543016287207" expanded="true" signature="-1:-1" placeholder="UPDATE CLIEN..." />
-            <marker date="1543016287207" expanded="true" signature="-1:-1" placeholder="UPDATE CLIEN..." />
-            <marker date="1543016287207" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1543016287207" expanded="true" signature="-1:-1" placeholder="SELECT C.ID,..CLIENTE..." />
-            <marker date="1543016287207" expanded="true" signature="-1:-1" placeholder="SELECT C.ID,..CLIENTE..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/FormatoProductoServiceMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="867">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding>
-            <marker date="1543016934357" expanded="true" signature="-1:-1" placeholder="UPDATE FORMA..." />
-            <marker date="1543016934357" expanded="true" signature="-1:-1" placeholder="UPDATE FORMA..." />
-            <marker date="1543016934357" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1543016934357" expanded="true" signature="-1:-1" placeholder="SELECT C.ID,..CLIENTE..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/TipoProductoServiceMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0774648" vertical-offset="0" max-vertical-offset="867">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding>
-            <marker date="1543016934383" expanded="true" signature="-1:-1" placeholder="UPDATE TIPO_..." />
-            <marker date="1543016934383" expanded="true" signature="-1:-1" placeholder="UPDATE TIPO_..." />
-            <marker date="1543016934383" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1543016934383" expanded="true" signature="-1:-1" placeholder="SELECT C.ID,..CLIENTE..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/MarcaServiceMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59859157" vertical-offset="0" max-vertical-offset="867">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <marker date="1543016934369" expanded="true" signature="-1:-1" placeholder="UPDATE MARCA..." />
-            <marker date="1543016934369" expanded="true" signature="-1:-1" placeholder="UPDATE MARCA..." />
-            <marker date="1543016934369" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1543016934369" expanded="true" signature="-1:-1" placeholder="SELECT C.ID,..CLIENTE..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/MarcaServiceMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28073394" vertical-offset="0" max-vertical-offset="545">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/FormatoProductoServiceMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2693662" vertical-offset="0" max-vertical-offset="568">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/request/GiroRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06238532" vertical-offset="0" max-vertical-offset="545">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/request/GeneralRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5614679" vertical-offset="0" max-vertical-offset="545">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/FormatoProductoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35915494" vertical-offset="0" max-vertical-offset="568">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/MarcaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14964789" vertical-offset="0" max-vertical-offset="568">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="15" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mappings/ClienteServiceMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03119266" vertical-offset="51" max-vertical-offset="952">
-          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-          <folding>
-            <marker date="1543015441148" expanded="true" signature="-1:-1" placeholder="UPDATE CLIEN..." />
-            <marker date="1543015441148" expanded="true" signature="-1:-1" placeholder="UPDATE CLIEN..." />
-            <marker date="1543015441148" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1543015441148" expanded="true" signature="-1:-1" placeholder="SELECT C.ID,..CLIENTE..." />
-            <marker date="1543015441148" expanded="true" signature="-1:-1" placeholder="SELECT C.ID,..CLIENTE..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/dao/impl/ClienteJpaDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/dao/ClienteDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/dao/impl/ClienteJpaDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11971831" vertical-offset="0" max-vertical-offset="568">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7183099" vertical-offset="34" max-vertical-offset="3383">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/TipoProductoServiceMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23943663" vertical-offset="0" max-vertical-offset="568">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/MarcaServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="697">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/TipoProductoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/mappers/ClienteServiceMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/TipoProductoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0923694" vertical-offset="17" max-vertical-offset="697">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/mappers/ClienteMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40963855" vertical-offset="0" max-vertical-offset="374">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/ClienteService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25" vertical-offset="0" max-vertical-offset="340">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/java/cl/andina/tesis/dto/MarcaDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17957747" vertical-offset="0" max-vertical-offset="918">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/TipoProductoServiceSoa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35915494" vertical-offset="0" max-vertical-offset="1037">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/ClienteServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74823946" vertical-offset="0" max-vertical-offset="568">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/MarcaServiceSoa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10211267" vertical-offset="61" max-vertical-offset="1037">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/mybatis-wsu-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4190141" vertical-offset="0" max-vertical-offset="568">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/FormatoProductoServiceSoa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29929578" vertical-offset="102" max-vertical-offset="1037">
-          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/webServices.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40699816" vertical-offset="0" max-vertical-offset="833">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/spring-wsu-mappers-beans-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21915285" vertical-offset="0" max-vertical-offset="561">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/external/soa/ClienteServiceSoa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35915494" vertical-offset="0" max-vertical-offset="1037">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/java/cl/andina/tesis/services/impl/FormatoProductoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14964789" vertical-offset="0" max-vertical-offset="646">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.06563707" vertical-offset="0" max-vertical-offset="323">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tesis-business/tesis-business-logic/src/main/resources/spring-database-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1292">
+        <state vertical-scroll-proportion="0.1875" vertical-offset="255" max-vertical-offset="1292">
           <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-external-services/src/main/resources/spring-external-services-config.xml">
+    <entry file="file://$PROJECT_DIR$/tesis-business/tesis-business-logic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26226416" vertical-offset="82" max-vertical-offset="612">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-business/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/resources/spring-ui-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48178136" vertical-offset="153" max-vertical-offset="442">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9375" vertical-offset="0" max-vertical-offset="2890">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.0.5.RELEASE/spring-webmvc-3.0.5.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/UrlFilenameViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.208914" vertical-offset="2021" max-vertical-offset="2380">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/spring/webmvc-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7571942" vertical-offset="140" max-vertical-offset="731">
+          <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesis-ui/ui-desktop/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11971831" vertical-offset="51" max-vertical-offset="2499">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
           <folding />
         </state>
       </provider>
