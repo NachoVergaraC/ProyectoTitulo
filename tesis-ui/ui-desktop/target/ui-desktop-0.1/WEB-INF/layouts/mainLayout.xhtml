@@ -85,21 +85,6 @@
                 <div class="contenidoUnico">
                     <ui:insert name="content"/>
                 </div>
-                <p:dialog modal="true" widgetVar="dlg1" height="100" width="250" resizable="false"
-                          showEffect="fade"
-                          styleClass="inProgress"
-                          closable="false" draggable="false">
-                    <div align="center">
-                        <h:outputText value="...Procesando..."/> <br/>
-                        <h:graphicImage value="/images/bluespinner.gif" alt="ImagenProceso"
-                                        title="ImagenProceso"/>
-                    </div>
-                </p:dialog>
-                <p:ajaxStatus name="status2" id="status"
-                              onstart="PF('dlg1').show();"
-                              onerror="PF('dlg1').hide();"
-                              onsuccess="PF('dlg1').hide();"
-                              oncomplete="PF('dlg1').hide();"/>
             </div>
         </div>
     </h:body>

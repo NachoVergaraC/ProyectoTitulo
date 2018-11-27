@@ -14,6 +14,14 @@
 			<webflow:listener ref="facesContextListener"/>
 			<webflow:listener ref="securityFlowExecutionListener"/>
 		</webflow:flow-execution-listeners>
+
+		<!--
+Dejar <webflow:redirect-in-same-state value="false"/> si hay problemas con AJAX y JSF 2
+ver: http://static.springsource.org/spring-webflow/docs/2.3.x/reference/html/ch13s10.html
+-->
+		<webflow:flow-execution-attributes>
+			<webflow:redirect-in-same-state value="false"/>
+		</webflow:flow-execution-attributes>
 	</webflow:flow-executor>
 
 	<!-- The registry of executable flow definitions -->

@@ -13,8 +13,8 @@
     <ui:define name="content">
         <h:form id="form">
             <table>
-                <tr>
-                        <p:outputLabel value="#{welcomeBean.pepito}"/>
+                <tr>#{request.contextPath}
+                    <p:outputLabel value="#{welcomeBean.pepito}"/>
                 </tr>
             </table>
         </h:form>
